@@ -257,3 +257,5 @@ add_subdirectory(External)
 
 target_include_directories(PokeFinderCore PUBLIC "${CMAKE_SOURCE_DIR}/External")
 target_link_libraries(PokeFinderCore bz2_static)
+
+install(TARGETS PokeFinderCore DESTINATION .)
